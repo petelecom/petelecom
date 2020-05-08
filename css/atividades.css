@@ -9,14 +9,14 @@
     height: 70vh;
 }
 .three{
-    height: 210vh;
+    height: 220vh;
 }
 .four{
-    height: 210vh;
+    height: 220vh;
 	margin-top: -38%;
 }
 .five{
-    height: 210vh;
+    height: 220vh;
 	margin-top: -37%;
 }
 .six{
@@ -119,7 +119,7 @@
     border: #FFF dashed 4px;
     border-radius: 30px;
     width: 75%; 
-    height: 65%;
+    height: 70%;
     margin-top: 0%;
 }
 
@@ -143,14 +143,14 @@
         height: 70vh;
     }
     .three{
-        height: 200vh;
+        height: 210vh;
     }
     .four{
-        height: 200vh;
+        height: 210vh;
         margin-top: -35%;
     }
     .five{
-        height: 200vh;
+        height: 210vh;
         margin-top: -35%;
     }
     .six{
