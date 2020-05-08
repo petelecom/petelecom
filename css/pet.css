@@ -34,7 +34,7 @@
 	clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
 }
 .five{
-	margin-top: -29%;
+	margin-top: -30%;
 	height: 165vh;
 	width: 100%;
 	background-color: #20C1D4;
@@ -206,7 +206,7 @@
 	position: absolute;
 	transform: perspective(600px) rotateY(180deg);
 	width: 65%;
-	margin-top: 5%;
+	height: 57%;	
 }
 
 .back-content {
@@ -407,14 +407,14 @@ p{
 		clip-path: polygon(0 0%, 100% 10%, 100% 90%, 0 100%);
 	}
 	.four{
-		margin-top: -28%;
+		margin-top: -32%;
 		height: 130vh;
 		width: 100%;
 		background-color: #2685BC;
 		clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
 	}
 	.five{
-		margin-top: -27%;
+		margin-top: -30%;
 		height: 140vh;
 		width: 100%;
 		background-color: #20C1D4;
@@ -564,6 +564,11 @@ p{
 
 	.texto_terceira_parte{
 		font-size: 1.1em;
+	}
+	*/
+
+	.back{
+		height: 20%;
 	}
 
 	/* Terceira parte */
@@ -726,6 +731,8 @@ p{
 	.back{
 		width: 15%;
 		margin-top: 2%;
+		height: 57%;	
+
 	}
 
 

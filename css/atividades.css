@@ -13,11 +13,11 @@
 }
 .four{
     height: 220vh;
-	margin-top: -38%;
+	margin-top: -40%;
 }
 .five{
     height: 220vh;
-	margin-top: -37%;
+	margin-top: -39%;
 }
 .six{
     clip-path: polygon(0 26%, 100% 0, 100% 100%, 0 100%);
@@ -147,11 +147,12 @@
     }
     .four{
         height: 210vh;
-        margin-top: -35%;
+        margin-top: -46%;
+        clip-path: polygon(0 10%, 100% 0, 100% 97%, 0 90%);
     }
     .five{
         height: 210vh;
-        margin-top: -35%;
+        margin-top: -45%;
     }
     .six{
         clip-path: polygon(0 26%, 100% 0, 100% 100%, 0 100%);
