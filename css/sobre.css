@@ -149,6 +149,11 @@
 	font-size: 1.8em;
 }
 
+
+#mapa{
+	box-shadow:2px 2px teal;
+}
+
 @media screen and (min-width: 350px){
 	.two{
 		height: 240vh;
@@ -326,7 +331,6 @@
 		align-items: flex-start;
 		text-align: left;
 	}
-
 	.pet{
 		align-items: flex-end;
 		text-align: right;
@@ -334,6 +338,8 @@
 
 	.contato-sobre{
 		flex-direction: row;
+		justify-content: space-between;
+		width: 70%;
 	}
 
 
