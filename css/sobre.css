@@ -8,15 +8,15 @@
     height: 320vh;
 }
 .three{
-    height: 230vh;
+    height: 210vh;
 }
 .four{
-    height: 200vh;
-	margin-top: -44%;
+    height: 180vh;
+	margin-top: -37%;
 }
 .five{
-    height: 160vh;
-	margin-top: -37%;
+    height: 150vh;
+	margin-top: -32%;
 }
 .six{
     clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
@@ -149,25 +149,20 @@
 	font-size: 1.8em;
 }
 
-
-#mapa{
-	box-shadow:2px 2px teal;
-}
-
 @media screen and (min-width: 350px){
 	.two{
 		height: 240vh;
 		}
 	.three{
-		height: 185vh;
+		height: 155vh;
 	}
 	.four{
-		height: 145vh;
-		margin-top: -40%;
+		height: 115vh;
+		margin-top: -32%;
 	}
 	.five{
-		height: 140vh;
-		margin-top: -32%;
+		height: 130vh;
+		margin-top: -30%;
 	}
 	.six{
 		clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
@@ -331,6 +326,7 @@
 		align-items: flex-start;
 		text-align: left;
 	}
+
 	.pet{
 		align-items: flex-end;
 		text-align: right;
@@ -338,8 +334,6 @@
 
 	.contato-sobre{
 		flex-direction: row;
-		justify-content: space-between;
-		width: 70%;
 	}
 
 

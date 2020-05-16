@@ -34,7 +34,7 @@
 	clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
 }
 .five{
-	margin-top: -30%;
+	margin-top: -29%;
 	height: 165vh;
 	width: 100%;
 	background-color: #20C1D4;
@@ -181,7 +181,7 @@
 }
 
 .flip-card-inner{
-	height: 60%; 
+	height: 30%; 
 	border: 4px dashed #2685bc;
 	width: 70%;
 	border-radius: 30px;
@@ -205,8 +205,8 @@
 .back {
 	position: absolute;
 	transform: perspective(600px) rotateY(180deg);
-	width: 65%;
-	height: 57%;	
+	width: 60%;
+	margin-top: 5%;
 }
 
 .back-content {
@@ -407,14 +407,14 @@ p{
 		clip-path: polygon(0 0%, 100% 10%, 100% 90%, 0 100%);
 	}
 	.four{
-		margin-top: -32%;
+		margin-top: -28%;
 		height: 130vh;
 		width: 100%;
 		background-color: #2685BC;
 		clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
 	}
 	.five{
-		margin-top: -30%;
+		margin-top: -27%;
 		height: 140vh;
 		width: 100%;
 		background-color: #20C1D4;
@@ -565,11 +565,6 @@ p{
 	.texto_terceira_parte{
 		font-size: 1.1em;
 	}
-	*/
-
-	.back{
-		height: 20%;
-	}
 
 	/* Terceira parte */
 
@@ -718,7 +713,7 @@ p{
 	}
 
 	.flip-card-inner{
-		height: 60%;
+		height: 55%;
 		width: 18%;
 		margin: 0 0 5% 0;
 		cursor: pointer;
@@ -731,8 +726,6 @@ p{
 	.back{
 		width: 15%;
 		margin-top: 2%;
-		height: 57%;	
-
 	}
 
 
@@ -840,4 +833,3 @@ p{
 	}
 
 }
-
