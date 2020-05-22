@@ -8,15 +8,15 @@
     height: 320vh;
 }
 .three{
-    height: 210vh;
+    height: 230vh;
 }
 .four{
-    height: 180vh;
-	margin-top: -37%;
+    height: 200vh;
+	margin-top: -44%;
 }
 .five{
-    height: 150vh;
-	margin-top: -32%;
+    height: 160vh;
+	margin-top: -37%;
 }
 .six{
     clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
@@ -154,15 +154,15 @@
 		height: 240vh;
 		}
 	.three{
-		height: 155vh;
+		height: 185vh;
 	}
 	.four{
-		height: 115vh;
-		margin-top: -32%;
+		height: 145vh;
+		margin-top: -40%;
 	}
 	.five{
-		height: 130vh;
-		margin-top: -30%;
+		height: 140vh;
+		margin-top: -32%;
 	}
 	.six{
 		clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
