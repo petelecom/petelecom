@@ -296,6 +296,11 @@
         margin-top: 10%;
     }
 
+    .img-fluid{
+        max-width: 50%;
+        height: auto;
+    }
+   
     .carousel-control-prev i, .carousel-control-next i{
         font-size: 30px;
         color: #2062d4;
