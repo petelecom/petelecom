@@ -1,0 +1,260 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2rem;
+	padding: 0;
+	margin: 0;
+}
+
+/* For all section's title */
+.section-title {
+	font-family: Berlin Sans FB, verdana;
+	color: #290f85;
+	margin: -1% 0 1% 0;
+	font-size: 3rem;
+}
+
+/* Navigation */
+
+.nav-item {
+	margin: -5vh 20px 20px 0;
+}
+.logo {
+	margin: -5vh 0  20px 8%;
+	cursor: pointer;
+	align-items: center;
+}
+/* #menu{
+	height: 12%;
+	margin: 0 0 0 0;
+	z-index: 20;
+	width: 100%;
+	background-color: #1f73ff;
+	padding: 0;
+	position: fixed;
+	align-items: center;
+	opacity: initial;
+} */
+/* Main Section */
+
+#main {
+
+	background: url("../img/background.png");
+	background-size: cover;
+	height: 100vh;
+}
+.header-main {
+	margin-top: 100px;
+}
+.header-info {
+	margin-top: 10%;
+	font-weight: 900;
+	font-size: 7vh;
+	color: rgb(255, 255, 255);
+	
+}
+.btn-outline-light {
+	margin-left: 20px;
+}
+.btn-space {
+	margin-top: 20px;
+}
+
+.antena{
+	margin-top: 10%;
+	width: 40vh;
+	margin-left: 30vh;
+}
+
+.titulo{
+	margin: 0;
+	text-align: center;
+	font-weight: 500;
+	font-size: 40px;
+}
+
+/* Overview */
+#overview{
+	height: 100%;
+}
+.sobre-title{
+	margin-top: 5%;
+}
+.info-width {
+	width: 60%;
+	font-size: 1.3rem;
+}
+.overview-icon {
+	font-size: 3rem;
+	color: #290f85;
+	width: 50px;
+}
+.overview-row {
+	margin-top: 5rem;
+}
+.overview-header {
+	font-weight: 900;
+}
+.overview-icon, .overview-header, .info-width {
+	padding: 1rem 0;
+}
+
+/* Testimonials */
+#testimonials {
+	background-color: #ffffff;
+}
+.carousel-item {
+	width: 100vw;
+	height: 85vh;
+	padding: 0 30% 0 30%;
+}
+
+
+.carousel-control-next,.carousel-control-prev, .carousel-indicators{
+    filter: invert(100%);
+} 
+
+/* Pricing */
+#pricing {
+	margin-bottom: 50px;
+	padding: 50px 0;
+}
+.pricing-title {
+	margin-bottom: 50px;
+}
+.card {
+	box-shadow: 0px 3px 63px -12px rgba(0, 0, 0, 0.75);
+	border-color: #5a34fc;
+	border-radius: 10px;
+}
+.card-body {
+	padding: 7% 0;
+}
+
+.pricing-text {
+	color: #5a34fc;
+	font-size: 2rem;
+	font-weight: bold;
+	padding: 5% 0%;
+}
+.btn-block {
+	font-size: 1.5rem;
+}
+
+.col-md-4 {
+	margin-bottom: 25px;
+}
+/* Call To Action */
+#cta {
+	background-color: #5a34fc;
+	padding: 7% 15%;
+}
+.cta-text {
+	font-weight: bold;
+	font-size: 3rem;
+	color: #fff;
+}
+
+/* Footer */
+.footer {
+	height: 250px;
+	width: 100%;
+	background-color: #0aa5ec;
+	padding-top: 20px;
+	padding-bottom: 0;
+	margin: 0 0 0 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.rodape{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.item-rodape{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+.rodape p{
+	color: white;
+	text-align: center;
+	font-size: 1em;
+}
+.rodape i{
+	font-size: 30px;
+	color: white;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+
+	.iphone-mock {
+		display: none;
+	}
+	.card {
+		margin: 20px 0;
+	}
+	.header-info {
+		font-size: 2rem;
+		text-align: center;
+	}
+
+	.antena{
+		display: none;
+		/* width: 200px;
+		margin-right: 30px; */
+	}
+
+
+	.carousel-item {
+		width: 100%;
+		height: 100%;
+		margin-top: 20px;
+		margin-bottom: 80px;
+
+	}
+
+	.footer {
+		height: 450px;
+		width: 100%;
+		background-color: #0aa5ec;
+		padding-top: 100px;
+		padding-bottom: 50px;
+		margin: 0 0 0 0;
+	}
+	.rodape{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.item-rodape{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+	}
+	.rodape p{
+		color: white;
+		text-align: center;
+		font-size: 7pt;
+	}
+	.rodape i{
+		font-size: 25px;
+		color: white;
+	}
+
+}
+
+
+/* SOBRE */
+
